@@ -1,0 +1,5 @@
+﻿  Pakman.cpp
+c:\users\gilyana\source\repos\project2\project2\pakman.cpp(52): warning C4305: +=: усечение из "double" в "float"
+c:\users\gilyana\source\repos\project2\project2\pakman.cpp(186): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\gilyana\source\repos\project2\project2\pakman.cpp(256): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Project2.vcxproj -> C:\Users\Gilyana\source\repos\Project2\x64\Debug\Project2.exe
