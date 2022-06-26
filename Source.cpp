@@ -1,11 +1,14 @@
-#include <doctest.h>
+#include <cassert>
+#include <iostream>
 #include "Pakman.cpp"
 
-TEST_CASE() {
-	newx = 14
-	y = 2
-	Place = TileMap[y][newx + 1]
-	REQUIRE(Place(' ') == 15)
-}
+using namespace std;
 
-TEST_SUITE_END();
+newx = 14;
+y = 2;
+Coor = newx + 1;
+
+void Coord() {
+	assert(Coor(15) == true)
+		cout << "Ok";
+}
